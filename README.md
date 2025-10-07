@@ -1,7 +1,7 @@
 # Interpretable-NeuroAlign  
 **Hierarchical Alignments + Dual-Domain Cross-Attention + SAM for Interpretable Cognitive Decline Detection**
 
-The framework integrates **static/dynamic functional connectivity (sFC/dfc)**, **ALFF**, and **structural diffusion features (FA)** through a novel dual-domain cross-attention mechanism, enhanced with hierarchical alignment modules. Interpretability is achieved via a multi-modal extension of ScoreCAM (**MM-ScoreCAM**).
+The framework integrates **static/dynamic functional connectivity (sFC/dfc)**, **ALFF**, and **structural diffusion features (FA)** through a novel dual-domain cross-attention mechanism, enhanced with hierarchical alignment modules. Interpretability is achieved via a multi-modal extension of ScoreCAM (**SAM**).
 
 ---
 
