@@ -57,7 +57,7 @@ python test.py
 ```
 Outputs include classification metrics (accuracy, AUC, etc.) and saved predictions.
 
-## 🌈 Generating Multi-Modal Activation Maps (MM-ScoreCAM)
+## 🌈 Generating Multi-Modal Activation Maps (SAM)
 To visualize interpretable activation maps across MRI modalities:
 
 ### * Step 1: Patch the torchcam Package
