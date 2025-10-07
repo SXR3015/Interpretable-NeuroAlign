@@ -24,9 +24,10 @@ imageio == 2.31.1
 ## 🧠 Data Preparation
 Before training, you must extract the following imaging features offline:
 ```
-Feature	Tool	Notes
-sFC / dFC / ALFF	MATLAB + SPM12	Use SPM12 batch processing for fMRI preprocessing
-FA (Fractional Anisotropy)	PANDA or FSL	Both are supported; ensure consistent spatial normalization
+Feature	| Tool		|Notes
+|：--------|：--------：|--------：|
+sFC / dFC / ALFF	|	MATLAB + SPM12	|	Use SPM12 batch processing for fMRI preprocessing
+FA (Fractional Anisotropy)		| PANDA or FSL	|	Both are supported; ensure consistent spatial normalization
 ```
 ⚠️ Important:
  * Input tensor shape affects the kernel_size of the average pooling layer in the network backbone.
